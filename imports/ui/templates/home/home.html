@@ -13,7 +13,7 @@
 <template name="list">
     <ul class="list-group">
       {{#each task}}
-          <li class="list-group-item">{{name}}</li>
+          <li class="list-group-item col-md-6">{{name}}</li><li class="list-group-item  col-md-6"> <a href="/update/{{_id}}" id="edit">Edit</a></li>
       {{/each}}
     </ul>
 </template>

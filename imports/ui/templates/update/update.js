@@ -1,11 +1,14 @@
-import './home.html'
+import './update.html';
 import { Tasks } from '../../../api/collections/collections'
 import { Template } from 'meteor/templating';
 
 Meteor.subscribe('Tasks');
-Template.home.helpers({ 
+Template.updatetask.helpers({ 
     formCollection() {
         return Tasks;
+    },
+    mydoc : function(){
+    	return Tasks.findOne({_id:Router.current().params.taskId});
     }
 });
 
@@ -14,4 +17,3 @@ Template.list.helpers({
        return Tasks.find().fetch();
    }
 });
-
