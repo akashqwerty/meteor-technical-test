@@ -1,0 +1,8 @@
+Apart from installation hurdles of babel, 
+bcrypt and node-stubs stuff I am unable to identify which type of bugs are you expecting me to find out.
+I am not very much into autoform as we actually never used it in our app. instead we tried to create our own autoform
+and have succeded to develop a system where user can input their form elements and create them by self. though they are not for complex forms.
+I have worked for complex form handling and we had to create custom templates for each our client as they have different requirements and lengthy 
+forms. I have tried to learn autoform a little today and based on what I have got I have completed the task asked. 
+For bugs part, Please specify about what type of bugs do I need to find. I am not sure of it.
+And Thanks!! there was new good small learnings for me. 
